@@ -1,0 +1,45 @@
+name: Feature implementation
+description: Implement one scoped Repute capability
+title: ""
+labels:
+  - type:feature
+body:
+  - type:textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: Describe the user or operational outcome.
+    validations:
+      required: true
+  - type:textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: State what is included and explicitly excluded.
+    validations:
+      required: true
+  - type:textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Use observable, testable criteria.
+      value: "- [ ] "
+    validations:
+      required: true
+  - type:textarea
+    id: security
+    attributes:
+      label: Security and abuse cases
+      description: Note authorization, validation, privacy, concurrency, and abuse concerns.
+  - type:textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: Link blocking decisions and issues.
+  - type:textarea
+    id: verification
+    attributes:
+      label: Verification plan
+      description: Unit, integration, end-to-end, and manual checks.
+    validations:
+      required: true
